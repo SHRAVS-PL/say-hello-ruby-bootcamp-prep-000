@@ -1,8 +1,11 @@
 # Build your say_hello method here
 
 def say_hello(name)
-   if(name.)
+   if(name=nil)
    puts "Hello ${name}!"
+ else
+      puts "Hello ${name}!"
+
 end
 
 say_hello("")
